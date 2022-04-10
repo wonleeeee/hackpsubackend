@@ -1,0 +1,28 @@
+{
+  "name": "hackpsubackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wonleeeee/hackpsubackend.git"
+  },
+  "author": "Won Seok Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wonleeeee/hackpsubackend/issues"
+  },
+  "homepage": "https://github.com/wonleeeee/hackpsubackend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "express": "^4.17.3",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "read-excel-file": "^5.2.28",
+    "xlsx": "^0.18.5"
+  }
+}
